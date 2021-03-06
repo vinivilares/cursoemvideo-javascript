@@ -1,0 +1,31 @@
+Conversão de variáveis
+
+Number.parseInt(n) para números inteiros
+Number.parseFloat(n) para números reais
+Number(n) para qualquer número
+
+String(n)
+n.toString()
+
+----------------------------------------------------
+
+Formatando String
+
+var s = 'JavaScript'
+'Eu estou aprendendo s'     | Não faz interpoalção
+'Eu estou aprendendo' + s   | Usa concatenação
+`Eu estou aprendendo ${s}`  | Usa tamplate string
+
+s.length // Quantos caracteres a string tem
+s.toUpperCase() // Tudo para 'MAIÚSCULAS'
+s.toLowerCase() // Tudo para 'minúsculas'
+
+----------------------------------------------------
+
+Formatando Números
+
+var n1 = 1543.5
+
+n1
+n1.toFixed(2) Duas casas decimais
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL}) 
